@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+
+body {
+    background-color: #f1bf62;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #fc9611 10px ), repeating-linear-gradient( #ee9208, #fa8704 );
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+
+
+#sobremi {
+      text-align: center;
+     vertical-align: top;
+}
+
+#sobremitexto {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+
+.cuadrado1 {
+color: black;
+}
+
+.cuadrado2 {
+    width: 75%;
+    height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    background-color: #F0A04B;
+    border-width: 2px;
+    border-radius: 1%;
+    border-color: black;
+    border-style:ridge;
+    margin: 40px auto;
+    padding: 30px;
+    
+}
+
+#titulosm {
+    display: flex;
+    vertical-align: top;
+    text-align: center;
+}
+
+.estudios {
+    display: grid;
+    grid-template-columns: repeat(3, 1 fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+}
+
+.img1 {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.microsoft {
+    width: 230px;
+    height: 110px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 100px;
+    background-color: #FFB26B;
+    box-shadow: 15px 7px .5px #DC5F00;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+.microsoft:hover {
+    transform: translateY(-30px);
+    transition: transform 0.2s ease-in-out;
+}
+
+.ingles {
+    width: 230px;
+    height: 110px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+     padding: 100px;
+     background-color: #F2921D;
+     box-shadow: 15px 7px .5px #DC5F00;
+     
+}
+
+.ingles:hover {
+    transform: translateY(-30px);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.colegio {
+    width: 230px;
+    height: 110px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+     padding: 100px;
+     background-color: #FC7300;
+     box-shadow: 15px 7px .5px #DC5F00;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.colegio:hover {
+    transform: translateY(-30px);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+
+nav {
+  background-color: #FFA500;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+  background-color: rgb(255, 144, 64);
+  padding: 7px;
+  border-radius: 15%;
+}
+
+.containernav {
+  display: flex;
+}
+
+.page1,
+.page2 {
+  width: 50%;
+}
+
+.img2 {
+  display: flex;
+  justify-content: center;
+}
+
+.social-buttons {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+ 
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s ease;
+  
+}
+
+.social-buttons:hover {
+  background-color: rgb(223, 217, 217);
+  color: white;
+}
+
+
+.instagram {
+  background: rgb(131,58,180);
+  background: linear-gradient(125deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  border-radius: 15%;
+  box-shadow: 1px 1px 5px  rgb(150, 46, 190)
+}
+
+.twitter {
+  background-color: #1DA1F2;
+  border-radius: 15%;
+   box-shadow: 1px 1px 5px lightblue;
+}
+
+.linkedin {
+  background-color: #0077B5;
+  border-radius: 15%;
+   box-shadow: 1px 1px 5px darkblue;
+}
+
+
+.r-sociales {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f5f5f500;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #b95b12;
+  padding: 15px 0;
+}
+
+.footer-cont {
+  padding: 5px;
+}
